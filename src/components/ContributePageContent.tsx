@@ -21,7 +21,7 @@ const ContributePageContent: React.FC = () => {
     },
   };
   return (
-    <main className="max-w-5xl mx-auto md:pt-5 transition-colors duration-200 flex flex-col items-stretch gap-10 px-5 lg:px-0 overflow-x-hidden lg:overflow-x-hidden">
+    <main className="max-w-5xl mx-auto md:pt-5 transition-colors duration-200 flex flex-col items-stretch gap-10 px-5 lg:px-0 overflow-x-hidden lg:overflow-y-hidden">
       <Header
         searchTerm=""
         setSearchTerm={(value) =>
