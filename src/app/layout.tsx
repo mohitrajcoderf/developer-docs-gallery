@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Footer from "@/components/Footer";
 import { GoogleAnalytics } from '@next/third-parties/google'
+import { Analytics } from "@vercel/analytics/next";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -41,6 +42,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased dark:bg-neutral-950 dark:text-neutral-50 bg-neutral-100 transition duration-100 min-h-screen flex flex-col items-stretch gap-20`}
       >
         {children}
+        <Analytics />
         <Footer />
       </body>
       <GoogleAnalytics gaId="G-XHVRBZLJDK" />
