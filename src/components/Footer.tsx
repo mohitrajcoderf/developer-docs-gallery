@@ -86,6 +86,10 @@ const Footer: React.FC = ({ }) => {
               </Link>
             </Button>
           </nav>
+          <p>
+          Support Me -- <Link href="https://buymeacoffee.com/mohitraj" target="_blank"> Buymeacoffee
+          </Link>
+        </p>
         </div>
       </div>
     </footer>
