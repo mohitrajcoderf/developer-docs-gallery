@@ -674,5 +674,18 @@
     "x": "https://twitter.com/nodejs",
     "github": "https://github.com/nodejs/node",
     "linkedin": "https://www.linkedin.com/company/node-js"
+  },
+  {
+     "id": 53, 
+    "title": "MoneyKit", 
+    "description": "The new standard for connecting to financial data. Next-generation performance powered by open banking and a rich network of data aggregators. Native SDKs, universal API, stunning UX — all in one kit.", 
+    "link": "https://docs.moneykit.com",
+    "logo": "https://cdn.hashnode.com/res/hashnode/image/upload/v1736281528787/43c229bb-5c14-4a48-a822-1fb7c64a4a36.png?auto=format", 
+    "screenshot": "https://cdn.hashnode.com/res/hashnode/image/upload/v1736281634664/7222586f-d3fa-44e9-9017-67b985addc93.png?auto=format", 
+    "category": "API", 
+    "featured": false, 
+    "x": "", 
+    "github": "https://github.com/moneykit", 
+    "linkedin": "https://www.linkedin.com/company/moneykit/"
   }
 ]
